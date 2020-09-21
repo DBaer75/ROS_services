@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find bb8_circle_pkg)/launch/start_bb8_move_in_circle.launch"/>
+
+  <node pkg="bb8_circle_pkg" type="bb8_move_in_circle_service_server" name="move_bb8_in_circle_node" output="screen">
+  </node>
+
+
+</launch>
